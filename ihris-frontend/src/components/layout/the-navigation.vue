@@ -28,7 +28,7 @@
               :key="sub.id"
               :to="sub.url"
               active-class="primary darken-2"
-              class="text-right"
+              class="text-left"
               dense
             >
               <v-list-item-title>{{ sub.text }}</v-list-item-title>
@@ -36,7 +36,7 @@
             </v-list-item>
           </v-list-group>
         </template>
-        <template v-else>
+        <!-- <template v-else>
           <v-list-item :to="item.url" :key="item.id">
             <v-list-item-icon>
               <v-icon>{{ item.icon }}</v-icon>
@@ -45,10 +45,10 @@
               item.text
             }}</v-list-item-title>
           </v-list-item>
-        </template>
+        </template> -->
       </template>
     </v-list>
-    <v-list nav dark class="primary lighten-1" dense v-else>
+    <!-- <v-list nav dark class="primary lighten-1" dense v-else>
       <v-list-item v-for="auth in nav.auths" :key="auth.id">
         <v-list-item-title>
           <auth-button
@@ -58,19 +58,19 @@
           ></auth-button>
         </v-list-item-title>
       </v-list-item>
-    </v-list>
+    </v-list> -->
   </v-navigation-drawer>
 </template>
 
 <script>
-import AuthButton from "./auth-button";
+// import AuthButton from "./auth-button";
 
 export default {
   name: "the-navigation",
   props: ["nav"],
-  components: {
-    AuthButton,
-  },
+  // components: {
+  //   AuthButton,
+  // },
   mounted: function () {
     this.updateMenu();
   },

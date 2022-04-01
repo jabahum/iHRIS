@@ -16,11 +16,11 @@
             "code": "1.2.840.10065.1.12.1.14"
           }
         ],
-        "when": "2022-03-30T13:40:08.807Z",
+        "when": "2022-04-01T13:38:45.929Z",
         "who": {
           "reference": "http://ihris.org/fhir/Organization/ihris"
         },
-        "data": "Otgpq37YohMHWIIx9xMmxlYEKxZzC7TOGHsGQ+yi23qmzs8AB5La2N2NecHUvYDepLoQkH+8SE947HLZpm+D1x9p+B/4AWo3NDG39yO+CgGwAUpxD6rbO1gd91xx0Vou0PCc+RRNea+7g6SlQaOqCJwIoMI2GdQ3h4ig5f8n62Q="
+        "data": "UVIQaV+z8zNSfQ4DDmvXvK5yM4MpCMINNDeqkYnQfUi/ImvUqb1vdRmnGjUYkrW8JnOtg3yKzTG6H3ZEQwN7A3JtPgtqU2KWR2iL9CYXUUD0RwYC5VNGJVUu1CYG/rucbVAOKwmfXoq+bhffRwwalO9PAFbnIv7T2zmuCpC35Vs="
       }
     },
     {
@@ -60,11 +60,11 @@
         },
         {
           "name": "site:footer:links:about:text",
-          "valueString": "About NHWR"
+          "valueString": "About MoH"
         },
         {
           "name": "site:footer:links:about:to",
-          "valueString": "/static/page-about"
+          "valueString": ""
         },
         {
           "name": "site:footer:links:feedback:text",
@@ -76,7 +76,7 @@
         },
         {
           "name": "site:footer:links:ihris:text",
-          "valueString": "NHWR Website"
+          "valueString": "MoH Website"
         },
         {
           "name": "site:footer:links:ihris:href",
@@ -85,6 +85,22 @@
         {
           "name": "site:nav:active",
           "valueString": "person"
+        },
+        {
+          "name": "site:nav:menu:dashboard:text",
+          "valueString": "Dashboard"
+        },
+        {
+          "name": "site:nav:menu:dashboard:order",
+          "valueString": "1"
+        },
+        {
+          "name": "site:nav:menu:dashboard:icon",
+          "valueString": "mdi-chart-arc"
+        },
+        {
+          "name": "site:nav:menu:dashboard:url",
+          "valueString": "/dashboard"
         },
         {
           "name": "site:nav:menu:person:text",
@@ -111,22 +127,6 @@
           "valueString": "1"
         },
         {
-          "name": "site:nav:menu:dashboard:text",
-          "valueString": "Dashboard"
-        },
-        {
-          "name": "site:nav:menu:dashboard:order",
-          "valueString": "1"
-        },
-        {
-          "name": "site:nav:menu:dashboard:icon",
-          "valueString": "mdi-chart-arc"
-        },
-        {
-          "name": "site:nav:menu:dashboard:url",
-          "valueString": "/dashboard"
-        },
-        {
           "name": "site:nav:menu:reports:text",
           "valueString": "Reports"
         },
@@ -144,7 +144,7 @@
         },
         {
           "name": "site:nav:menu:reports:menu:staff:url",
-          "valueString": "/report/ihris-es-report-staff"
+          "valueString": "/resource/report/ihris-es-report-staff"
         },
         {
           "name": "site:nav:menu:reports:menu:staff:order",
@@ -156,7 +156,7 @@
         },
         {
           "name": "site:nav:menu:reports:menu:inservice:url",
-          "valueString": "/report/ihris-es-report-inservice"
+          "valueString": "/resource/report/ihris-es-report-inservice"
         },
         {
           "name": "site:nav:menu:reports:menu:inservice:order",
@@ -168,7 +168,7 @@
         },
         {
           "name": "site:nav:menu:reports:menu:cadre:url",
-          "valueString": "/report/ihris-es-report-cadre"
+          "valueString": "/resource/report/ihris-es-report-cadre"
         },
         {
           "name": "site:nav:menu:reports:menu:cadre:order",
@@ -180,7 +180,7 @@
         },
         {
           "name": "site:nav:menu:reports:menu:systems:url",
-          "valueString": "/report/ihris-es-report-systems"
+          "valueString": "/resource/report/ihris-es-report-systems"
         },
         {
           "name": "site:nav:menu:reports:menu:systems:order",
@@ -248,7 +248,7 @@
         },
         {
           "name": "site:nav:menu:audit:icon",
-          "valueString": "mdi-lock-reset"
+          "valueString": "mdi-chart-line-variant"
         },
         {
           "name": "site:nav:menu:audit:url",
